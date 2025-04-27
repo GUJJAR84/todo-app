@@ -1,12 +1,68 @@
-# React + Vite
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>📝 ToDo App (React)</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <p>A simple and clean To-Do List application built using <strong>React.js</strong>.</p>
 
-Currently, two official plugins are available:
+  <h2>🚀 Features</h2>
+  <ul>
+    <li>Add new tasks.</li>
+    <li>Mark tasks as completed.</li>
+    <li>Delete tasks from the list.</li>
+    <li>Interactive and dynamic UI with React state management.</li>
+  </ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <h2>🛠️ Technologies Used</h2>
+  <ul>
+    <li>React.js (Vite Setup)</li>
+    <li>JavaScript (ES6+)</li>
+    <li>HTML5</li>
+    <li>CSS3</li>
+  </ul>
 
-## Expanding the ESLint configuration
+  <h2>📂 Project Structure</h2>
+  <pre>
+todo-app/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── components
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
+  </pre>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  <h2>📋 How to Run the Project</h2>
+  <ol>
+    <li>Clone the repository:
+      <pre><code>git clone https://github.com/GUJJAR84/todo-app.git</code></pre>
+    </li>
+    <li>Navigate into the project directory:
+      <pre><code>cd todo-app</code></pre>
+    </li>
+    <li>Install dependencies:
+      <pre><code>npm install</code></pre>
+    </li>
+    <li>Start the development server:
+      <pre><code>npm run dev</code></pre>
+    </li>
+    <li>Open your browser and go to <a href="http://localhost:5173" target="_blank">http://localhost:5173</a></li>
+  </ol>
+
+
+
+  <h2>📄 License</h2>
+  <p>This project is licensed under the <strong>MIT License</strong>.</p>
+
+  <h2>👤 Author</h2>
+  <p><strong><a href="https://github.com/GUJJAR84">GUJJAR84</a></strong></p>
+
+</body>
+</html>
